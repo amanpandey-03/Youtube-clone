@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav div{
+    display: inline-flex; 
+}
+
+li{
+    list-style-type: none;  
+    display: flex;
+}
+#ldiv{
+    justify-content: left;
+}
+
+#mid{
+    margin: 0% 10% ;
+    justify-content: center;
+    justify-items: center;
+}
+#rdiv{
+justify-content: right;
+
+}
+nav{
+flex-shrink: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
